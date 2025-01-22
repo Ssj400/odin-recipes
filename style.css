@@ -14,10 +14,21 @@ li {
     font-size:130%;
 }
 
-div {
-    margin-left: 20vw;
-    margin-right: 20vw;
+.preparation {
+    padding-top:  2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 0;
+    list-style-type: none ;
+}
+
+.main_flow {
     text-align: center;
+    display:flex;
+    flex-flow: column;
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    align-items: center;
 }
 
 h1 {
@@ -25,12 +36,16 @@ h1 {
 }
 
 
-.inductive_list {
+ul {
     list-style-type:none;
+    flex: 1 1 auto;
+    padding-left: 0;
 }
 
-.inductive_images {
-    width: 100vw;
+img {
+    border-radius: 32px 32px 32px 32px;
+    width: 90%;
+    height: auto;
 }
 
 
